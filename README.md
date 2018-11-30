@@ -1,7 +1,9 @@
-# 3531D_Demo
+# LinkSDK Demo for C3531D
 
 #### 项目介绍
-3531D全功能开发板的演示程序集
+C3531D全功能开发板的演示程序集。
+这些Demo是基于 LinkSDK 开发的，工程需要QT支持，在QT环境下编译。
+LinkSDK的运行库参见：https://github.com/GZ-LinkPi/LinkLib。
 
 #### Decode
 解码网络流并显示，可以修改代码中的流地址。
@@ -28,3 +30,43 @@ HDMI-3/VGA、AHD、USBCam
 
 #### UI
 支持触屏操作的UI测试程序，UI使用Html实现，运行后会出现两个交错的图像，点击“Touch Me”按钮会交换两个图像的位置。
+
+#### 如何获得C3531D
+https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-18827270222.4.3f0d6ffdfmipwc&id=575474051968
+
+---
+
+#### Project Introduction
+These are demos for the C3531D full-featured development board.
+These demos are based on LinkSDK, which requires QT support and is compiled in QT environment.
+LinkSDK runtime library: https://github.com/GZ-LinkPi/LinkLib.
+
+#### Decode
+The network stream is decoded and displayed, and the network stream url in the code can be modified.
+
+#### Encode
+Encode the image of the HDMI-1 interface and output to network stream rtmp://xx.xx.xx.xx/live/test
+
+#### Gpio
+Gpio test program, after execution, press the "stop" button near the debug serial port, the program will print the corresponding event.
+
+#### InputTest
+All input source tests will output a 9-grid screen, in order
+
+SDI-1, SDI-2, SDI-3
+
+SDI-4, HDMI-1, HDMI-2
+
+HDMI-3/VGA, AHD, USBCam
+
+USBCam requires an external UVC standard camera.
+
+#### Record
+Record the test program. After the program is executed, a video of about 8 seconds will be recorded and saved in /tmp/test.mp4.
+
+#### UI
+The UI test program supports touch screen operation. The UI is implemented by Html. After running, two interlaced images will appear. Clicking the “Touch Me” button will swap the positions of the two images.
+
+#### How to get C3531D
+Https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-18827270222.4.3f0d6ffdfmipwc&id=575474051968
+
