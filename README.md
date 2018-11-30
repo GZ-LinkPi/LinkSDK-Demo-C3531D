@@ -1,9 +1,10 @@
 # LinkSDK Demo for C3531D
 
-#### 项目介绍
-C3531D全功能开发板的演示程序集。
-这些Demo是基于 LinkSDK 开发的，工程需要QT支持，在QT环境下编译。
-LinkSDK的运行库参见：https://github.com/GZ-LinkPi/LinkLib。
+#### 项目介绍  
+C3531D全功能开发板的演示程序集。    
+这些Demo是基于 LinkSDK 开发的，工程需要QT支持，在QT环境下编译。  
+LinkSDK的运行库参见：https://github.com/GZ-LinkPi/LinkLib。  
+镜像工程：https://gitee.com/LinkPi/3531D_Demo <master分支>  
 
 #### Decode
 解码网络流并显示，可以修改代码中的流地址。
@@ -36,10 +37,11 @@ https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-18827270222.4.3f0d6ffdfmi
 
 ---
 
-#### Project Introduction
-These are demos for the C3531D full-featured development board.
-These demos are based on LinkSDK, which requires QT support and is compiled in QT environment.
-LinkSDK runtime library: https://github.com/GZ-LinkPi/LinkLib.
+#### Project Introduction  
+These are demos for the C3531D full-featured development board.  
+These demos are based on LinkSDK, which requires QT support and is compiled in QT environment.  
+LinkSDK runtime library: https://github.com/GZ-LinkPi/LinkLib.  
+Mirror project: https://gitee.com/LinkPi/3531D_Demo <master branch>     
 
 #### Decode
 The network stream is decoded and displayed, and the network stream url in the code can be modified.
