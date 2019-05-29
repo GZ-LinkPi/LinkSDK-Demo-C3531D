@@ -4,7 +4,7 @@
 C3531D全功能开发板的演示程序集。C3531D主芯片是海思Hi3531D芯片，外围接口有4xSDI, 1xAHD, 3xHDMI, 1xVGA，HDMI最高分辨率支持4K (3840x2160)。  
 这些Demo是基于 LinkSDK 开发的，工程需要QT支持，在QT环境下编译。  
 LinkSDK的运行库参见：https://github.com/GZ-LinkPi/LinkLib 。  
-镜像工程：https://gitee.com/LinkPi/3531D_Demo <master分支>  
+镜像工程：https://gitee.com/LinkPi/3531D <master分支>  
 
 #### Decode
 解码网络流并显示，可以修改代码中的流地址。
@@ -42,7 +42,7 @@ These are demos for the C3531D full-featured development board.
 The main chip of C3531D is the Hisilicon Hi3531D. The peripheral interfaces have 4xSDI, 1xAHD, 3xHDMI, 1xVGA. The highest HDMI resolution is 4K (3840x2160).
 These demos are based on LinkSDK, which requires QT support and is compiled in QT environment.  
 LinkSDK runtime library: https://github.com/GZ-LinkPi/LinkLib .  
-Mirror project: https://gitee.com/LinkPi/3531D_Demo <master branch>     
+Mirror project: https://gitee.com/LinkPi/3531D <master branch>     
 
 #### Decode
 The network stream is decoded and displayed, and the network stream url in the code can be modified.
